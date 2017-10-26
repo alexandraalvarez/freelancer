@@ -1,59 +1,45 @@
-# Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+1. Formato general del <body>.
+2. Formato general del <header>.
+3. Formato general de los elementos <a> del <header>.
+4. Formato detallado para los diferentes <a> del <header>.
+5. Formato para darle el efecto :hover a los elementos <a> del <header>.
+6. Formato general de la <section> -a.
+7. Formato del <h1> de la <section>-a.
+8. Formato del <i> estrella y las barras <p> acompañantes, para que aparezcan en línea y de color blanco.
+9. Formato del <h3>, con cambio de fuente incluído.
+10. Formato general de la <section> -b.
+11. Formato del <h2> de la <section>-b.   
+12. Formato del <i> estrella y las barras <p> acompañantes, para que aparezcan en línea, con cambio de color.
+13. Formato de las <img>, incluye cambio de tamaño.  
+14. Formato general de la <section>-c.
+15. Formato del <h2> de la <section>-c.
+16. Formato del <i> estrella y las barras <p> acompañantes, para que aparezcan en línea y de color blanco. 
+17. Formato general a la subsección <div class="table">.
+18. Formato general a los <p class="column">.
+19. Formato para centrar los <p class="column">.
+20. Formato general a la subsección <div class="download">.  
+21. Formato detallado al <a class="fa fa-download">.
+22. Fomarto para darle efecto cuando el mouse esté posado encima a la subsección <div class="download"> y a <a class="fa fa-download">.
+23. Formato general de la <section>-d.
+24. Formato general a la subsección <div class="contact">.
+25. Formato del <h2> de la subsección <div class="contact">.
+26. Formato del <i> estrella y las barras <p> acompañantes, para que aparezcan en línea y con cambio de color.
+27. Formato general de la subsección <div class="information">.  
+28. Formato general a los <h4> de la subsección. 
+29. Formato detallado del último <h4> de la subsección.
+30. Formato general a la subsección <div class="send">.
+31. Formato detallado al <h4>.
+32. Fomarto para darle efecto cuando el mouse esté posado encima de la subsección <div class="send">. 
+33. Formato general del <footer>.
+34. Formato general a la subsecciones <div class="footer-column"> .
+35. Formato detallado de las secciones <div class="location">, <div class="around">, <div class="about-free">.
+36. Formato detallado de los <h3>, <h4> y <p>.
+37. Formato general de la lista <ul>, los elementos de la lista <li>, y los enlaces <a> (íconos redes sociales). 
+38. Formato para darle efecto cuando el mouse esté posado encima de los elementos de la lista <a>.
+39. Formato general a la subsección <div class="final">. 
+40. Formato detallado del <p> copyright.  
 
-***
-
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
-
-## Flujo de trabajo
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
-
-## Objetivo
-
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
-
-![Freelancer Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
 
   - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
 
@@ -69,12 +55,3 @@ a lograr:
 están fuera del alcance de este reto. Enfócate en obtener la maquetación
 lo más parecido posible, usando lo aprendido en clase ;)
 
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible

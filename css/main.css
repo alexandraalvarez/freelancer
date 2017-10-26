@@ -1,3 +1,344 @@
-/*
- * Estilos de tu proyecto
- */
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+La paleta de colores puedes obtenerla inspeccionado el sitio original, 
+pero para ganar tiempo, puedes usar los siguientes: #2c3e50(azul marino), #18bc9c (verde turquesa), #128f76(verde 
+botones), #212529 (azul marino más profundo, section b)
+Si le doy fuente a un ícono, éste desaparece o.o */
+
+/*Formato general del body*/
+
+body { /*formato base del cuerpo*/
+  	font-family: 'Montserrat', sans-serif;
+  	font-family: 'Lato', sans-serif; 
+  	margin: 0 auto;
+}
+
+/*Formato del header y sus elementos*/
+
+header { /*formato general del header, color de fondo*/
+  /*outline: 2px solid black;*/
+  background: #2c3e50;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 3;
+  margin: 0 auto;
+}
+
+header a { /*los elementos a se muestra como bloque en línea con sus respectivos margins*/
+  font-weight: bolder; /*buscar forma de que la letra se vuelva más gruesa*/
+  display: inline-block;
+  margin-left: 2.8em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: #FFFFFF; 
+  text-decoration: none;
+}
+
+header .large { /*margen de la primera palabra*/
+	font-size: 1.8em;
+	padding-right: 19em;
+}
+
+header .change-hover { /*para que se vea el efecto cuando le paso el mouse encima*/
+	padding-right: 1em;
+	margin: 0 0 0 0;
+}
+
+header .last { /*para darle distancia desde la izquierda*/
+	padding-right: 7.2em;
+}
+
+.change-hover:hover { /*para darle efecto cuando el mouse esté posado encima*/
+  color: #18bc9c;
+}
+
+/*Formato de la primera sección*/
+
+.section-a { /*formato general de la sección*/
+  background-color: #18bc9c;
+  color: #FFFFFF; /*color de letra blanco*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 12.5em 0 0 0;  
+}
+
+.section-a h1 { /*para agrandar y engrosar el título*/
+	font-weight: bold;
+	font-size: 5.5em;
+	margin: 0;
+	padding: 0.4em 0 0.3em 0;
+}
+
+.section-a i,p { /*para darle formato al ícono estrella y las líneas que la acompañan (quizás podría factorizar ésto)*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+}
+
+.white { /*para darle color blanco a las barritas laterales*/
+	color: white;
+}
+
+.section-a h3 { /*para cambiar la fuente, grosor, tamaño y darle padding*/
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.8em;
+	padding-bottom: 3.5em;	
+}
+
+/*Formato de la segunda sección*/
+
+.section-b { /*formato general de la sección b*/
+  background-color: #FFFFFF;
+  color: #212529;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.05em 0 3em 0; 
+}
+
+.section-b h2 { /*para agrandar y engrosar el título*/
+	font-weight: bold;
+	font-size: 3em;
+	margin: 0;
+	padding: 2em 0 0.3em 0;
+}
+
+.section-b i,p { /*para darle formato al ícono de la estrella y las líneas que la acompañan*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+} 
+
+.images { /*para darle tamaño y margen a las fotos de la sección*/
+	width: 22em;
+	height: 15.6em;
+	margin: 1em 1em 1em 1em;
+}
+
+/*Formato de la tercera sección*/
+
+.section-c { /*formato general de la sección b*/
+  background-color: #18bc9c;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0.05em 0 3em 0; 
+}
+
+.section-c .titles { /*para darle alineado central al título, al ícono de la estrella y las líneas que la acompañan*/
+	text-align: center;
+}
+
+.section-c h2 { /*para agrandar y engrosar el título*/
+	font-weight: bold;
+	font-size: 3em;
+	margin: 0;
+	padding: 2em 0 0.3em 0;
+}
+
+.section-c i,p { /*para darle formato a la imagen de la estrella y las líneas que la acompañan*/
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+} 
+
+.white { /*para darle color blanco a las barritas laterales*/
+	color: #FFFFFF;
+}
+
+.section-c .table { /*para darle formato a general a la subsección*/
+	/*outline: 2px solid black;*/
+	overflow: auto;
+	padding-top: 0.5em;
+	margin-top: 0;
+}
+
+.section-c .column { /*para darle formato a los párrafos y posicionarlos*/
+	/*outline: 2px solid black;*/
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	text-align: left;
+	line-height: 1.6em;
+	display: inline-block;
+	float: left;
+	margin: 0 1em 0 1em;
+	padding: 0;
+}
+
+.column:first-child { /*para centrar las columnas*/
+	margin-left: 14.5em;
+}
+
+.download {/*para darle formato al "botón" (estudiar etiqueta bottom) de download width 210px heigh 50px*/
+	display: inline-block;
+	margin: 2em 8.25em 2.5em 33em;
+	padding: 1em;
+	border: 0.1em solid white;
+}
+
+.download a { /*para darle formato al a*/
+	color: #FFFFFF;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.download:hover { /*para darle efecto cuando el mouse esté posado encima a la sección*/
+  background-color: #FFFFFF;
+}
+
+.download a:hover { /*para darle efecto cuando el mouse esté posado encima al enlace*/
+	color: #18bc9c; 
+}
+
+/*Formato de la cuarta sección*/
+
+.section-d { /*formato general de la sección b*/
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0.05em 0 3em 0; 
+}
+.contact { /*formato general de la subsección*/
+	text-align: center;
+}
+
+.contact h2 { /*para agrandar y engrosar el título*/
+	font-family: 'Montserrat', sans-serif;
+	color: #212529;
+	font-weight: bold;
+	font-size: 3em;
+	margin: 0;
+	padding: 2em 0 0.3em 0;
+}
+
+.contact i,p { /*para darle formato al ícono de la estrella y las líneas que la acompañan*/
+	display: inline-block;
+	color: #2C3E50;
+	margin: 0;
+	padding: 0;
+	font-size: 2em;
+} 
+
+.information { /*para darle un mismo formato a todos los elementos de la subsección*/
+	font-family: 'Lato', sans-serif;
+	padding-left: 11.5em;
+	padding-bottom: 1em; 
+	color: #868E96;
+	font-size: 1.5em;
+}
+
+.information h4 { /*detalle del formato para los h4*/
+	font-weight: normal;
+	border-bottom: 0.05em solid #868E96;
+	margin-right: 11.5em;
+	line-height: 1em;
+	padding: 2em 0 2em 0; 
+}
+
+.information .message { /*para darle distancia desde abajo*/
+	padding-bottom: 8em;
+}
+
+.send {/*para darle formato al "botón" de send*/
+	display: inline-block;
+	margin: 0 8.25em 2.5em 19em;
+	background-color: #18bc9c;
+}
+
+.send h4 { /*para darle formato al a*/
+	line-height: 0;
+	color: #FFFFFF;
+	padding: 0 1em 0 1em;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.send:hover { /*para darle efecto cuando el mouse esté posado encima a la sección*/
+  background-color: #128F76;
+}
+
+/*Formato del footer */
+
+footer { /*formato general del footer*/
+  	text-align: center;
+  	background-color: #2c3e50;
+  	margin: 0 auto;
+  	color: #FFFFFF;
+  	padding: 0.05em 0 3em 0; 
+}
+
+.footer-column { /*para darle formato a las subsecciones*/
+	display: inline-block;
+	width: 23.75em;
+	height: 11.56em;
+	margin: 1em 1em 6em 1em;
+}
+
+.location { /*formato específico de la subsección*/
+	float: left;
+	margin-left: 1.75em;
+}
+
+.around { /*formato específico de la subsección*/
+	float: left;
+}
+
+.about-free { /*formato específico de la subsección*/
+	float: left;
+}
+
+footer h3 { /*formato específico de los títulos*/
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 1.75em;
+}
+
+footer h4,p { /*formato específico de los parrafos y subtítulos*/
+	font-weight: normal;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+footer ul { /*formato general de lista*/
+	list-style: none;
+	padding: 0;
+}
+
+footer ul li { /*formato general de los elementos de la lista*/
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+footer li a { /*formato general de los enlaces de la lista*/
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 1em;
+	padding: 0.25em;
+	border: 0.1em solid white;
+}
+
+footer a { /*para darle color a los enlaces y quitarle la línea de abajo*/
+ 	color: #18bc9c;
+  	text-decoration: none;
+}
+
+footer li a:hover { /*para darle efecto a los elementos de la lista cuando pase el mouse encima (íconos redes sociales)*/
+	color: #18bc9c;
+	background-color: #FFFFFF;
+}
+
+.final { /*para formato general del copyrght (me estorba algo del body para que baje más)*/
+	margin: 0;
+	padding: 3em 0 0 0;
+}
+
+.last-p { /*Para darle formato al párrafo del copyrigth*/
+	display: block;
+	text-align: center;
+	line-height: 0;
+	padding: 1.25em;
+	color: #FFFFFF;
+	font-size: 1em;
+}
