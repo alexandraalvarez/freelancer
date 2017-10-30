@@ -119,7 +119,7 @@ header .last { /*para darle distancia desde la izquierda*/
 
 /*Formato de la tercera sección*/
 
-.section-c { /*formato general de la sección b*/
+.section-c { /*formato general de la sección c*/
   background-color: #18bc9c;
   color: #FFFFFF;
   margin: 0 auto;
@@ -194,7 +194,7 @@ header .last { /*para darle distancia desde la izquierda*/
 
 /*Formato de la cuarta sección*/
 
-.section-d { /*formato general de la sección b*/
+.section-d { /*formato general de la sección d*/
   background-color: #FFFFFF;
   margin: 0 auto;
   padding: 0.05em 0 3em 0; 
